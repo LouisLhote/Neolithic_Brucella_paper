@@ -4,7 +4,7 @@ This is the repository of the Brucella paper, will be filled
 
 # Contents
 - [Overview](#overview)
-- [System Requirements](#System Requirements)
+- [System Requirements](#System_Requirements)
 
 # Overview
 
