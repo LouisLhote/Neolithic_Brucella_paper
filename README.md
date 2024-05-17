@@ -7,8 +7,10 @@ This is the repository of the Brucella paper, will be filled
 # System Requirements
 python2
 R
-samtools
-
+samtools 1.19.2
+Linux: Ubuntu 16.04  
+Mac OSX:  
+Windows:  
 
 
 # Lineage/diagnostic variant assessment section, how to use the codes
