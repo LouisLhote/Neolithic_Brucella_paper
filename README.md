@@ -5,6 +5,7 @@ This is the repository of the Brucella paper, will be filled
 # Contents
 - [Overview](#overview)
 - [System Requirements](#System_Requirements)
+- [Lineage/diagnostic variant assessment section, how to use the codes](#Lineage/diagnostic_variant_assessment_section,_how_to_use_the_scripts)
 
 # Overview
 
@@ -16,7 +17,7 @@ This is the repository of the Brucella paper, will be filled
 
 * samtools 1.19.2
 
-# Lineage/diagnostic variant assessment section, how to use the codes
+# Lineage/diagnostic variant assessment section, how to use the scripts
 
 ## Define reference
 First, we need to define the name of the reference the core genome has been prepared against. And provide the path of the reference. In this example the reference is Brucella melitensis reference 
