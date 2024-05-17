@@ -21,7 +21,7 @@ Here is the depository of all our custom scripts used in our work on a Brucella 
 # Lineage/diagnostic variant assessment section, how to use the scripts
 
 ## Define reference
-First, we need to define the name of the reference the core genome has been prepared against. And provide the path of the reference. In this example the reference is Brucella melitensis reference 
+First, we need to define the name of the reference the core genome has been prepared against. And provide the path of the reference. In this example the reference is Brucella melitensis reference. 
 
 ```
 REFN=melitensis
