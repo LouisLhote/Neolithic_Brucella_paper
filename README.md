@@ -8,9 +8,10 @@ This is the repository of the Brucella paper, will be filled
 
 
 # Lineage/diagnostic variant assessment section, how to use the codes
-We define the name of the reference the core genome has been prepared against
-and provide the path to the reference
-in this example, we use the  Brucella melitensis reference
+
+First, we need to define the name of the reference the core genome has been prepared against. And provide the path of the reference. In this example the reference is Brucella melitensis reference 
+REFN=melitensis
+REF=/path/to/GCF_000007505.1_ASM750v1_genomic.fna
 
 
 
