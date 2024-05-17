@@ -9,7 +9,7 @@ This is the repository of the Brucella paper, will be filled
 
 # Lineage/diagnostic variant assessment section, how to use the codes
 
-##Define reference
+## Define reference
 First, we need to define the name of the reference the core genome has been prepared against. And provide the path of the reference. In this example the reference is Brucella melitensis reference 
 
 ```
@@ -17,7 +17,7 @@ REFN=melitensis
 REF=/path/to/GCF_000007505.1_ASM750v1_genomic.fna
 ```
 
-##Create a set of discriminating sites
+## Create a set of discriminating sites
 We then create a set of sites with discriminate our lineage of interest. In this example we use the lineage target melitensis, but we can extend to suis, canis, inopinata. We can also look at lineage including two species e.g. for TARGET in melitensis-abortus, and modify the grep pattern to “melitensis\|abortus”. 
 The script creates a bed file of sites and a .out file of the variants defining the lineage. The example core vcf is core_melitensis-aligned.vcf, and example .bed.gz and .out files are also given (melitensis-lineage_melitensis-ref_example.bed.gz and melitensis-lineage_melitensis-ref_example.bed.gz in Examples_data section)
 
@@ -26,7 +26,7 @@ for TARGET in melitensis; do I=""; grep -m1 "#C" core_${REFN}-aligned.vcf | sed 
 ```
 
 
-##Extract pseudohaploid genotypes matching or not matching the lineage-defining variants
+## Extract pseudohaploid genotypes matching or not matching the lineage-defining variants
 We then create a pileup for our sample bam of interest, aligned to the same reference. Here we only look at melitensis-defining variants but again could expand to look at abortus, suis, canis-suis etc. We call pseudohaploid genotypes from the pileup file, producing a .pseudohap (Example: mentese6_melitensis-lineage_melitensis-ref_example.pseudohap), and then compare called variants to the .out file using the R script compare_lineage_sites_pseudohap-pileup.r - this will output the number of pseudohaploid genotypes matching or not matching the lineage-defining variants
 
 ```
