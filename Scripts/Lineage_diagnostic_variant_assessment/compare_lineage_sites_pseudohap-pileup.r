@@ -10,6 +10,10 @@ colnames(lineages)<-c("CHROM", "POS", "REF.lin", "ALT.lin","LIN")
 
 merged<-merge(sample, lineages)
 
+print("Matching:")
+
 nrow(merged[merged$OBSERVED == merged$LIN,])
+
+print("Not matching:")
 
 nrow(merged[merged$OBSERVED != merged$LIN,])
