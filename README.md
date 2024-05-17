@@ -5,6 +5,10 @@ This is the repository of the Brucella paper, will be filled
 # Contents
 # Overview
 # System Requirements
+python2
+R
+samtools
+
 
 
 # Lineage/diagnostic variant assessment section, how to use the codes
