@@ -7,7 +7,7 @@
 
 # Overview
 
-Here is the depository of all our custom scripts used in our work on a Brucella melitensis 🦠 genome found in a neolithic sheep 🐏 petrous from Menteşe Höyük, Northwest Türkiye 
+Here is the depository of all our custom scripts used in our work on a Brucella melitensis 🦠 genome found in a Neolithic sheep 🐏 petrous from Menteşe Höyük, Northwest Türkiye 
 
 
 # System Requirements
