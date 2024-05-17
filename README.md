@@ -25,7 +25,7 @@ First, we need to define the name of the reference the core genome has been prep
 
 ```
 REFN=melitensis
-REF=/path/to/GCF_000007505.1_ASM750v1_genomic.fna
+REF=/path/to/GCF_000007125.1_ASM750v1_genomic.fna
 ```
 
 ## Create a set of discriminating sites
