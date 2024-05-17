@@ -2,8 +2,8 @@
 
 # Contents
 - [Overview](#overview)
-- [System Requirements](#System_Requirements)
-- [Lineage/diagnostic variant assessment section, how to use the codes](#Lineage/diagnostic_variant_assessment_section,_how_to_use_the_scripts)
+- [System Requirements](#system_Requirements)
+- [Lineage/diagnostic variant assessment section, how to use the codes](#lineage/diagnostic_variant_assessment_section,_how_to_use_the_scripts)
 
 # Overview
 
