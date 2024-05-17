@@ -2,7 +2,7 @@
 
 # Contents
 - [Overview](#overview)
-- [System Requirements](#"System Requirements")
+- [System Requirements](#System_Requirements)
 - [Lineage/diagnostic variant assessment section, how to use the codes](#Lineage/diagnostic_variant_assessment_section,_how_to_use_the_scripts)
 
 # Overview
