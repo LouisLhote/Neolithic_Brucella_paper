@@ -1,5 +1,5 @@
 # Neolithic_Brucella_paper
-
+[![DOI](https://sandbox.zenodo.org/badge/797767207.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.80000)
 # Contents
 - [Overview](#overview)
 - [System Requirements](#system_Requirements)
